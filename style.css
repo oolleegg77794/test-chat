@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 0;
+	overflow: auto;
+}
+
+#messages{
+	height: 82vh;
+	overflow-x: auto;
+	padding: 10px;
+}
+
+form{
+	display: flex;
+}
+input{
+	font-size: 12 pt;
+	padding: 10px;
+	margin: 10px 5px;
+	appearence:none;
+	-webkit-appearence:none;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+#message{
+	flex: 2
+}
+.msg{
+	background-color: #dcf8c6;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	width: fit-content;
+}
+.msg p{
+	margin: 0;
+	font-weight: bold;
+	font-size: 12pt;
+}
+.msg span{
+	margin-left: 15px;
+	font-size: 0.7rem;
+}
